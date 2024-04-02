@@ -1,0 +1,14 @@
+all:
+  hosts:
+    jenkins_host:
+      ansible_host: 172.31.56.239
+      ansible_user: ubuntu
+      ansible_ssh_private_key_file:  app1.pem
+    monitoring_host:
+      ansible_host: 172.31.54.45
+      ansible_user: ubuntu
+      ansible_ssh_private_key_file: app1.pem
+    database_host:
+      ansible_host: 172.31.81.235
+      ansible_user: ubuntu
+      ansible_ssh_private_key_file: app1.pem
